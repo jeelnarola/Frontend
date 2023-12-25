@@ -1,0 +1,117 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    -main-benner: #FDF5E6;
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.justify-content{
+    justify-content: space-between;
+}
+.align-items{
+    align-items: center;
+}
+.box{
+    background-color: var(-main-benner);
+    width: 200px;
+    height: 300px;
+}
+
+header{
+    --mainbenner: #FDF5E6;
+    --mainHeading:#000000;
+    --mainHeadingText:#C6651A;
+    --mainText:#7A7A7A;
+}
+header{
+    .row{
+        .logo{
+            img{
+                width: 100px;
+                // padding: 10px;
+                padding-top: 10px;
+            }
+        }
+        nav{
+            li{
+                padding-top: 33px;
+                transition: all 0.5s;
+
+                a{
+                    color: var(--mainHeading);
+                    padding: 10px;
+                    transition: all 0.5s;
+                }:hover{
+                    border-bottom: 1px solid black;
+                }
+            }
+            
+        }
+        .icon{
+            
+                padding-top: 33px;
+            
+        }
+    }
+}
+.banner{
+    background-color: var(--mainbenner);
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    z-index: -1;
+    .bg-banner{
+        background-image: url(../Image/benner.png);
+        // padding:;
+        padding: 100px 0px;
+        padding-top: 160px;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        position: relative;
+        .col{
+            width: 50%;
+        .content{
+            width: 500px;
+            position: absolute;
+            z-index: 99;
+            h1{
+                font-size: 45px;
+                font-weight: 500;
+                word-spacing: 5px;
+                letter-spacing: 2px;
+                padding-left: 25px;
+                span{
+                    display: block;
+                }
+            }
+            p{
+                width: 294px;
+                font-size: 13px;
+                padding-right: 0px;
+                padding-left: 25px;
+            }
+        }.benner-img{
+            img{
+                width: 100%;
+                padding: 0px 20px;
+            }
+        }
+    }
+    }
+}

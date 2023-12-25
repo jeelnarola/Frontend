@@ -1,0 +1,183 @@
+:root{
+    --mainbenner: #FDF5E6;
+    --mainHeading:#000000;
+    --mainHeadingText:#C6651A;
+    --mainText:#7A7A7A;
+}
+@media (min-width:576px) {
+    .container{
+        max-width: 540px;
+    }
+    .banner{
+        background-color: var(--mainbenner);
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        z-index: -1;
+        .bg-banner{
+            background-image: url(../Image/benner.png);
+            // padding:;
+            padding: 200px  150px;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            position: relative;
+            .col{
+                width: 50%;
+            .content{
+                width: 500px;
+                h1{
+                    font-size: 50px;
+                    font-weight: 500;
+                    word-spacing: 5px;
+                    letter-spacing: 2px;
+                    padding-left: 25px;
+                    span{
+                        display: block;
+                    }
+                }
+                p{
+                    width: 365px;
+                    padding-left: 25px;
+                    font-size: 15px;
+                }
+            }.benner-img{
+                position: absolute;
+                bottom: 54px;
+                right: 288px;
+                z-index: -1;
+                img{
+                    width: 450px;
+                }
+            }
+        }
+        }
+    }  
+}
+
+@media (min-width:768px) {
+        .box{
+            width: 50%;
+        }
+        .container{
+            max-width: 720px;
+        }.box{
+            background-color: var(--mainbenner);
+            width: 200px;
+            height: 300px;
+        }
+        .banner{
+            background-color: var(--mainbenner);
+            position: absolute;
+            width: 100%;
+            top: 0px;
+            z-index: -1;
+            .bg-banner{
+                background-image: url(../Image/benner.png);
+                // padding:;
+                padding: 200px  150px;
+                background-size: 90%;
+                background-repeat: no-repeat;
+                position: relative;
+                .col{
+                    width: 50%;
+                .content{
+                    width: 500px;
+                    h1{
+                        font-size: 50px;
+                        font-weight: 500;
+                        word-spacing: 5px;
+                        letter-spacing: 2px;
+                        padding-left: 25px;
+                        span{
+                            display: block;
+                        }
+                    }
+                    p{
+                        width: 365px;
+                        padding-left: 25px;
+                        font-size: 15px;
+                    }
+                }.benner-img{
+                    position: absolute;
+                    bottom: 54px;
+                    right: 288px;
+                    z-index: -1;
+                    img{
+                        width: 450px;
+                    }
+                }
+            }
+            }
+        }
+}
+
+@media (min-width:992px) {
+    
+        .container{
+            max-width: 960px;
+        }
+}
+
+@media (min-width:1200px) {
+    
+        .container{
+            max-width: 1140px;
+        }
+}
+
+@media (min-width:1400px) {
+        .container{
+            max-width: 1320px;
+        }
+        .box{
+            background-color: var(--mainbenner);
+            width: 200px;
+            height: 300px;
+        }
+        .banner{
+            background-color: var(--mainbenner);
+            position: absolute;
+            width: 100%;
+            top: 0px;
+            z-index: -1;
+            .bg-banner{
+                background-image: url(../Image/benner.png);
+                // padding:;
+                padding: 200px  150px;
+                background-size: 90%;
+                background-repeat: no-repeat;
+                position: relative;
+                .col{
+                    width: 50%;
+                .content{
+                    width: 500px;
+                    h1{
+                        font-size: 50px;
+                        font-weight: 500;
+                        word-spacing: 5px;
+                        letter-spacing: 2px;
+                        padding-left: 25px;
+                        span{
+                            display: block;
+                        }
+                    }
+                    p{
+                        width: 365px;
+                        padding-left: 25px;
+                        font-size: 15px;
+                    }
+                }.benner-img{
+                    position: absolute;
+                    bottom: 54px;
+                    right: 288px;
+                    z-index: -1;
+                    img{
+                        width: 450px;
+                    }
+                }
+            }
+            }
+        }
+    
+        
+}
